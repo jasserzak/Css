@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/*  header */
+#header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 36px;
+}
+/*  Navbar   */
+#navbar {
+  background-color: gray;
+  padding: 15px;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 50px;
+}
+/* main content */
+#about {
+  padding: 20px;
+  background-color: #ddd;
+}
+
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#work {
+  padding: 20px;
+}
+
+#work h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#work figure {
+  margin-bottom: 20px;
+}
+
+#work figcaption {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#resume {
+  padding: 20px;
+  background-color: #ddd;
+}
+
+#resume h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#resume a {
+  display: block;
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+#contact {
+  padding: 20px;
+  background-color: #ddd;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#contact div {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/*  footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
